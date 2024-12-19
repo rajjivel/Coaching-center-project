@@ -98,13 +98,13 @@
 
 
 .Topic {
-    margin-top: 100px;
-    margin-left: 200px;
+    margin-top: 150px;
+    margin-left:150px;
     color: orangered;
     font-family: "Kings", cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 50px;
+    font-size:35px;
    
 }
 /*.Topic::first-line {
@@ -129,8 +129,8 @@
 
 .subcontent {
     margin-top: 30px;
-    margin-left: 200px;
-    font-size: 25px;
+    margin-left: 150px;
+    font-size: 20px;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -139,7 +139,8 @@
 
 }
 .vector{
-    padding: 10px;
+    padding:5px;
+    font-size:10px;
 }
 .subcontent1 {
     display: flex;
@@ -155,8 +156,8 @@
 
 .heropageimg {
     display: flex;
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 125px;
+    margin-left: 200px;
     
 }
 .main{
@@ -165,22 +166,22 @@
 
 .topic1a{
     margin-top: 100px;
+    margin-left:450px;
+    color: black;
+    font-family: "Kings", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+
+}
+.topic1b{
+ 
     margin-left: 550px;
     color: black;
     font-family: "Kings", cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 50px;
-
-}
-.topic1b{
- 
-    margin-left: 750px;
-    color: black;
-    font-family: "Kings", cursive;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 50px;
+    font-size: 35px;
 
 }
 
@@ -217,14 +218,15 @@
     margin-left:10px;
 }
 .gridlayout5{
-    width:360px;
-    height:300px;
+    width:260px;
+    height:350px;
     background-color: red; 
     margin-right: auto;
-    margin-left:600px;
-    margin-top:60px;
-    padding: 15px;
-    border-radius: 10px;
+    margin-left:300px;
+    margin-top:50px;
+    padding:25px;
+    border-radius:10px;
+    column-gap:100px;
     
 
 }
@@ -241,21 +243,21 @@
 {
     background-color: orangered;
     padding:10px 60px;
-    margin-left: 1250px;
+    margin-left: 925px;
     border: none;
     border-radius: 15px;
     font-size: 20px;
 
 }
 .gridlayout6{
-    width:45%;
+    width:50%;
     height: auto;
     background-color: transparent;
     border: none;
     border: 1px solid black;
     padding: 20px;
-    margin-left: 500px;
-    margin-top:60px;
+    margin-left:350px;
+    margin-top:150px;
     border-radius: 20px;
     column-gap: 10px;
 
@@ -291,7 +293,7 @@
     width:180px;
     height:250px;
     background-color: red; 
-    margin-left:200px;
+    margin-left:100px;
     margin-top:50px;
     border-radius: 10px;
 }
@@ -345,16 +347,17 @@
 
 .sec4part1,.sec4part3{
     display: flex;
+    /*margin-right:200px;*/
 }
 .sec4pic1,.sec4pic3{
-    margin-left: 400px;
+    margin-left:200px;
     margin-top:80px ;
 }
 .sec4part2{
     display: flex;
 }
 .sec4pic2{
-    margin-left:350px;
+    margin-left:290px;
     margin-top:80px ;
 }
  
@@ -385,6 +388,7 @@
         margin-left: auto;
     
 }
+
 .scal{
     margin-top: 50px;
     color:white;
